@@ -14,7 +14,7 @@
     "postinstall": "node postinstall.js"
   },
   "author": {
-    "name": "Nick Pershin",
+    "name": "Nick Pepper",
     "email": "nickpeppper@gmail.com",
     "url": "https://github.com/NickPepper"
   },

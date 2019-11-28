@@ -109,6 +109,7 @@ function checkNode (pass, callback) {
 
 
 function checkGcc(pass, callback) {
+  let compiler = 'gcc'
   child_process.exec('gcc -v', { env: process.env }, function (err, stdout, stderr) {
     if (err) {
       exercise.emit('fail', '`' + chalk.bold('gcc') + '` не найден в $PATH')
@@ -133,6 +134,7 @@ function checkGcc(pass, callback) {
         )
       }
     } else if (versionMatch = stderr.toString().match(/Apple LLVM version (\d+\.\d+)/)) {
+      compiler = 'Apple LLVM'
       versionString = versionMatch && versionMatch[1] + '.0'
 
       if (!semver.satisfies(versionString, '>=' + MIN_LLVM_VERSION)) {
@@ -146,6 +148,7 @@ function checkGcc(pass, callback) {
         )
       }
     } else if (versionMatch = stderr.toString().match(/Apple clang version (\d+\.\d+)/)) {
+      compiler = 'Apple clang'
       versionString = versionMatch && versionMatch[1] + '.0'
 
       if (!semver.satisfies(versionString, '>=' + MIN_CLANG_VERSION)) {
@@ -165,7 +168,7 @@ function checkGcc(pass, callback) {
       return callback(null, false)
     }
 
-    exercise.emit('pass', 'Найден подходящий `' + chalk.bold('gcc') + '` в $PATH: ' + chalk.bold('v' + versionString))
+    exercise.emit('pass', 'Найден подходящий `' + chalk.bold(compiler) + '` в $PATH: ' + chalk.bold('v' + versionString))
 
     callback(null, true)
   })
