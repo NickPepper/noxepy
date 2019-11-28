@@ -31,7 +31,7 @@ $ noxepy
 
 ## License
 
-**goingnative** is Copyright (c) 2019 Nick Pepper [@NickPepper](https://github.com/NickPepper) and contributors licensed under the MIT License. All rights not explicitly granted in the MIT License are reserved. See the included [LICENSE](./LICENSE) file for more details.
+**noxepy** is Copyright (c) 2019 Nick Pepper [@NickPepper](https://github.com/NickPepper) and contributors licensed under the MIT License. All rights not explicitly granted in the MIT License are reserved. See the included [LICENSE](./LICENSE) file for more details.
 
 
 ## :sparkles: To Be Continued :sparkles:
