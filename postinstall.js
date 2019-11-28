@@ -5,7 +5,7 @@ const path         = require('path'),
       instructions = require('./exercises/foo/vars.json').instructions
 
 
-const out     = path.join(__dirname, 'exercises/foo/problem.md'),
+const out     = path.join(__dirname, 'exercises/foo/problem.en.md'),
       problem = fs.readFileSync(out, 'utf-8')
 
 
