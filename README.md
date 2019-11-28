@@ -1,6 +1,6 @@
-# noxepy
+# noxepy [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)
 
-**I'm only offering you the TRUTH... nothing more.** [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+**I'm only offering you the TRUTH... nothing more.** :shipit:
 
 ![noxepy](https://github.com/NickPepper/noxepy/raw/master/noxepy.jpg)
 
@@ -27,7 +27,7 @@ $ noxepy
 * [Nick Pepper](https://github.com/NickPepper)
 
 
-## License :shipit:
+## License
 
 **goingnative** is Copyright (c) 2019 Nick Pepper [@NickPepper](https://github.com/NickPepper) and contributors licensed under the MIT License. All rights not explicitly granted in the MIT License are reserved. See the included [LICENSE](./LICENSE) file for more details.
 
