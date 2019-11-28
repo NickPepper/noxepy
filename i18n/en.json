@@ -5,8 +5,6 @@
     "credits": "CREDITS"
   },
   "exercise": {
-    "foo": "Am I ready to compile native C(++) modules for Electron?",
-    "bar": "BAR",
-    "baz": "BAZ"
+    "foo": "Am I ready to compile native C(++) modules for Electron?"
   }
 }

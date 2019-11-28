@@ -2,7 +2,7 @@
 
 const workshopper = require('workshopper'),
       path        = require('path'),
-      // menu        = require('./exercises/menu'),
+      credits     = require('./credits'),
       hooray      = require('workshopper-hooray')
 
 
@@ -24,5 +24,11 @@ workshopper({
     fs: 'green',
     bg: 'black'
   },
+  commands: [
+    {
+      name: 'credits',
+      handler: credits
+    }
+  ],
   onComplete: hooray
 })

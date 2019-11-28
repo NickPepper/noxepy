@@ -1,5 +1,6 @@
 const versions             = require('./vars.json').versions
     , MIN_GCC_VERSION      = versions.gcc
+    , MIN_CLANG_VERSION    = versions.clang
     , MIN_LLVM_VERSION     = versions.llvm
     , MIN_PYTHON_VERSION   = versions.python.min
     , MAX_PYTHON_VERSION   = versions.python.max
@@ -106,7 +107,8 @@ function checkNode (pass, callback) {
   callback(null, true)
 }
 
-function checkGcc (pass, callback) {
+
+function checkGcc(pass, callback) {
   child_process.exec('gcc -v', { env: process.env }, function (err, stdout, stderr) {
     if (err) {
       exercise.emit('fail', '`' + chalk.bold('gcc') + '` не найден в $PATH')
@@ -141,6 +143,19 @@ function checkGcc (pass, callback) {
             + chalk.bold('v' + versionString)
             + ', обновись до версии >= '
             + chalk.bold('v' + MIN_LLVM_VERSION)
+        )
+      }
+    } else if (versionMatch = stderr.toString().match(/Apple clang version (\d+\.\d+)/)) {
+      versionString = versionMatch && versionMatch[1] + '.0'
+
+      if (!semver.satisfies(versionString, '>=' + MIN_CLANG_VERSION)) {
+        exercise.emit('fail',
+              '`'
+            + chalk.bold('gcc/clang')
+            + '` версия слишком старая: '
+            + chalk.bold('v' + versionString)
+            + ', обновись до версии >= '
+            + chalk.bold('v' + MIN_CLANG_VERSION)
         )
       }
     }
