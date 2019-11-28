@@ -64,7 +64,6 @@ typings/
 docker-host
 docker-host.npm-tutor
 docker-host.levelmeup
-exercises/am_i_ready/problem.md
 .DS_Store
 Thumbs.db
 TODO.txt

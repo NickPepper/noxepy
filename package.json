@@ -1,7 +1,7 @@
 {
   "name": "noxepy",
   "version": "1.0.0",
-  "description": "A NodeSchool style workshopper for learning secret knowledges",
+  "description": "A NodeSchool style workzhopper for learning secret knowledges",
   "main": "noxepy.js",
   "bin": "./noxepy.js",
   "private": true,
