@@ -1,23 +1,13 @@
 # noxepy
 
-**I'm only offering you the TRUTH... nothing more.**
-
-:shipit:
-
-:sparkles:
-
-:-1:
-
-:+1:
-
-:clap:
+**I'm only offering you the TRUTH... nothing more.** :shipit:
 
 ![noxepy](https://github.com/NickPepper/noxepy/raw/master/noxepy.jpg)
 
 
-**Make your choice:**
+**:sparkles: Make your choice: :sparkles:**
 
-***You take the Blue Pill, the story ends. You wake up in your bed and believe whatever you want to believe:***
+***You take the Blue Pill, the story ends. You wake up in your bed and believe whatever you want to believe:*** :-1:
 ```sh
 $ git clone https://github.com/NickPepper/noxepy.git
 $ cd noxepy
@@ -25,7 +15,7 @@ $ yarn
 $ node noxepy.js
 ```
 
-***You take the Red Pill, you stay in Wonderland and I show you how deep the rabbit hole goes:***
+***You take the Red Pill, you stay in Wonderland and I show you how deep the rabbit hole goes: :+1:***
 ```sh
 $ sudo yarn global add git+https://git@github.com/NickPepper/noxepy.git
 $ noxepy
@@ -34,7 +24,7 @@ $ noxepy
 
 ## Contributors
 
-* [Nick Pepper](https://github.com/NickPepper)
+* [Nick Pepper](https://github.com/NickPepper) :clap:
 
 
 ## License
