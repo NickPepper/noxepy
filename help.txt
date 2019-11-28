@@ -1,0 +1,12 @@
+{yellow}{bold}Having trouble with a {appname} exercise?{/bold}{/yellow}
+
+  Simply go to:
+    https://github.com/nodeschool/discussions/issues
+  and add a {bold}New Issue{/bold} and let us know what you're having trouble
+  with. There are no {italic}dumb{/italic} questions!
+
+{yellow}{bold}Found a bug with {appname} or just want to contribute?{/bold}{/yellow}
+
+  The official repository for {appname} is:
+    https://github.com/rvagg/{appname}/
+  Feel free to file a bug report or (preferably) a pull request.
