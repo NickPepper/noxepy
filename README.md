@@ -1,4 +1,4 @@
-# noxepy [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)
+# noxepy [![Awesome]
 
 **I'm only offering you the TRUTH... nothing more.** :shipit:
 
